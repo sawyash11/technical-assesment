@@ -1,0 +1,17 @@
+<div class="group relative flex flex-col item-wrapper">
+	<div
+		class="w-full min-h-80 bg-gray-200 aspect-w-1 aspect-h-1 rounded-md overflow-hidden group-hover:opacity-75 lg:h-80 lg:aspect-none">
+		<img src="../../../assets/coffee.jpeg" alt="Front of men&#039;s Basic Tee in black."
+			class="w-full h-full object-center object-cover lg:w-full lg:h-full">
+	</div>
+	<div class="mt-4 mb-4 flex justify-between">
+		<div>
+			<h3 class="text-sm text-gray-700">
+				{{name}}
+			</h3>
+		</div>
+		<p class="text-sm font-medium text-gray-900">{{origin}}</p>
+	</div>
+	<button
+		class="text-white bg-gray-800 hover:bg-gray-900 focus:outline-none focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-gray-800 dark:hover:bg-gray-700 dark:focus:ring-gray-700 dark:border-gray-700"
+		(click)="openProductPage(id)">View Product</button>

@@ -1,0 +1,18 @@
+<div class="bg-white px-4 py-3 flex items-center justify-between border-t border-gray-200 sm:px-6">
+    <div class="w-full mt-6 grid grid-cols-1 gap-y-10 gap-x-6 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
+
+        <app-product-display *ngFor="let index of pageCoffeeData$ | async" id='{{index.id}}' name='{{index.blend_name}}'
+            origin='{{index.origin}}'></app-product-display>
+    </div>
+</div>
+<div class="flex items-center justify-center py-10 lg:px-0 sm:px-6 px-4">
+    <div class="lg:w-3/5 w-full flex items-center justify-center border-t border-gray-200">
+        <div class="sm:flex">
+            <button *ngFor='let item of counter((coffeeData$ | async).length/pageLimit) ;let i = index'
+                class="text-sm font-medium leading-none cursor-pointer  hover:text-indigo-700 border-t border-transparent hover:border-indigo-400 pt-3 mr-4 px-2"
+                (click)="changePagination(i+1)"
+                [ngClass]="activePage === i+1 ? 'text-indigo-800 border-indigo-400' : 'text-gray-600'">
+                {{i+1}}</button>
+        </div>
+    </div>
+</div>
