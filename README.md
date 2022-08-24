@@ -6,30 +6,30 @@ Note: Tailwind CSS and Tailwind UI components were used in the project
 
 # Folder Structure
 
-app
-Components
-        Contains all the components required 
-            Footer
-            Header
-            Product Display
-    Ngrx
-        Contains the store implementation expected from the assesment   
-            Actions
-            Effect
-            Reducer
-            Selector
-    Screens
-        Contains the screens/pages for the application
-            Home
-            About 
-            Store
-            Product
-    Services
-        Contains the api calls required to fetch data
-            Fetch API data
+app <br />
+Components <br />
+        Contains all the components required  <br />
+            Footer <br />
+            Header <br />
+            Product Display <br />
+    Ngrx <br />
+        Contains the store implementation expected from the assesment  <br />  
+            Actions <br />
+            Effect <br />
+            Reducer <br />
+            Selector <br />
+    Screens <br />
+        Contains the screens/pages for the application <br />
+            Home <br />
+            About <br />
+            Store <br />
+            Product <br />
+    Services <br />
+        Contains the api calls required to fetch data <br />
+            Fetch API data <br />
 
-Assets
-    Contains the images required in the application
+Assets <br />
+    Contains the images required in the application <br />
 
 
 # References
