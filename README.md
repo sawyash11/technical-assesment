@@ -7,7 +7,7 @@ Note: Tailwind CSS and Tailwind UI components were used in the project
 # Folder Structure
 
 app
-    Components
+Components
         Contains all the components required 
             Footer
             Header
@@ -33,9 +33,9 @@ Assets
 
 
 # References
-https://ngrx.io/
-https://tailwindcss.com/
-https://tailwindui.com/
-https://github.com/joshuamorony/ngrx-ionic-example
-https://www.youtube.com/watch?v=kx0VTgTtSBg
-https://tailwinduikit.com/components
+https://ngrx.io/ <br />
+https://tailwindcss.com/ <br />
+https://tailwindui.com/ <br />
+https://github.com/joshuamorony/ngrx-ionic-example <br />
+https://www.youtube.com/watch?v=kx0VTgTtSBg <br />
+https://tailwinduikit.com/components <br />
