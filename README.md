@@ -1,27 +1,40 @@
 # IBMAssignment
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
+This project was generated to solve the technical assesment assigned.
 
-## Development server
+Note: Tailwind CSS and Tailwind UI components were used in the project
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+# Folder Structure
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+app > components : Contains all the components required <br />
+app > components > footer <br />
+app > components > header <br />
+app > components > product display <br /> <br />
 
-## Build
+app > ngrx : Contains the store implementation expected from the assesment <br />
+app > ngrx > Actions <br />
+app > ngrx > Effect <br />
+app > ngrx > Reducer <br />
+app > ngrx > Selector <br /> <br />
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+app > screens : Contains the screens/pages for the application <br />
+app > screens > Home <br />
+app > screens > About  <br />
+app > screens > Store <br />
+app > screens > Product <br /> <br />
 
-## Running unit tests
+app > services : Contains the api calls required to fetch data <br />
+app > services > Fetch API data <br /> <br />
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+assets : Contains the images required in the application <br />
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+# References
+https://ngrx.io/ <br />
+https://tailwindcss.com/ <br />
+https://tailwindui.com/ <br />
+https://github.com/joshuamorony/ngrx-ionic-example <br />
+https://www.youtube.com/watch?v=kx0VTgTtSBg <br />
+https://tailwinduikit.com/components <br />
