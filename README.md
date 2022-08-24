@@ -4,32 +4,30 @@ This project was generated to solve the technical assesment assigned.
 
 Note: Tailwind CSS and Tailwind UI components were used in the project
 
+
 # Folder Structure
 
-.
-├── app<br />
-│   ├── Components <br />
-│   │   └── Contains all the components required<br />
-│   │       ├── Footer <br />
-│   │       ├── Header <br />
-│   │       └── Product Display <br /><br />
-│   ├── Ngrx<br />
-│   │   └── Contains the store implementation expected from the assesment <br />
-│   │       ├── Actions <br />
-│   │       ├── Effect <br />
-│   │       ├── Reducer <br />
-│   │       └── Selector <br />
-│   ├── Screens <br />
-│   │   └── Contains the screens/pages for the application <br />
-│   │       ├── Home <br />
-│   │       ├── About <br />
-│   │       ├── Store <br />
-│   │       └── Product <br />
-│   └── Services <br />
-│       └── Contains the api calls required to fetch data <br />
-│           └── Fetch API data <br />
-└── Assets <br />
-    └── Contains the images required in the application <br />
+app > components : Contains all the components required <br />
+app > components > footer <br />
+app > components > header <br />
+app > components > product display <br /> <br />
+
+app > ngrx : Contains the store implementation expected from the assesment <br />
+app > ngrx > Actions <br />
+app > ngrx > Effect <br />
+app > ngrx > Reducer <br />
+app > ngrx > Selector <br /> <br />
+
+app > screens : Contains the screens/pages for the application <br />
+app > screens > Home <br />
+app > screens > About  <br />
+app > screens > Store <br />
+app > screens > Product <br /> <br />
+
+app > services : Contains the api calls required to fetch data <br />
+app > services > Fetch API data <br /> <br />
+
+assets : Contains the images required in the application <br />
 
 
 
